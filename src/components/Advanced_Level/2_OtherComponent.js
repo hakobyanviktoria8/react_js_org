@@ -1,8 +1,8 @@
-function 2(props) {
+function OtherComponent(props) {
     return(
         <div>
             Other Component
         </div>
     )
 }
-export default 2
+export default OtherComponent

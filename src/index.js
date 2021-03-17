@@ -8,6 +8,14 @@ import {Lifting_State_Up} from "./components/10. Lifting_State_Up";
 import {Composition_Inheritance} from "./components/11. Composition_vs_Inheritance";
 import {Accessibility} from "./components/Advanced_Level/1.Accessibility";
 import {Code_Splitting} from "./components/Advanced_Level/2.Code-Splitting";
+import {Context} from "./components/Advanced_Level/3.Context";
+import AppErrror from "./components/Advanced_Level/4.ErrorBoundaries";
+import {ErrorBoundersing} from "./components/Advanced_Level/4_ErrorBoundersies";
+import {ForwardingRefs} from "./components/Advanced_Level/5.ForwardingRefs";
+import {FragmentComp} from "./components/Advanced_Level/6.Fragments";
+import {Higher_Order_Components} from "./components/Advanced_Level/7.HigherOrderComponents";
+import {JSXInDepth} from "./components/Advanced_Level/8.JSX_In_Depth";
+import {RenderProps} from "./components/Advanced_Level/9.Render_Props";
 
 
 ReactDOM.render(
@@ -28,16 +36,17 @@ ReactDOM.render(
        {/*11*/}
         {/*<Composition_Inheritance/>*/}
 
-        {/*Advanced*/}
+{/*__________________Advanced__________________________*/}
 {/*<Accessibility/>*/}
-
-<Code_Splitting/>
-
-
-
-
-
-
+{/*<Code_Splitting/>*/}
+{/*<Context/>*/}
+{/*<AppErrror/>*/}
+{/*<ErrorBoundersing/>*/}
+{/*<ForwardingRefs/>*/}
+{/*<FragmentComp/>*/}
+{/*<Higher_Order_Components/>*/}
+{/*<JSXInDepth n={892}/>*/}
+      <RenderProps/>
 
 
   </div>,
